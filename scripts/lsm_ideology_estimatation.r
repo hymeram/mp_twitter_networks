@@ -59,5 +59,5 @@ ggplot(data=ideology, aes(V1,V2,colour=party2)) +
    
   
 ggsave("MP_latent_space_plot.png",
-       width=10, height=6, units="in",
+       width=10, height=6, units="in",dpi=600,
        bg="white")  

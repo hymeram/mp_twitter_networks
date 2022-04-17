@@ -48,7 +48,7 @@ ideology <- ideology %>%
 
 #plotting
 ggplot(data=ideology, aes(V1,V2,colour=party2)) + 
-  geom_point(size=1) + 
+  geom_point(size=1,alpha=.6) + 
   theme_minimal() + 
   theme(axis.title = element_blank()) +
   scale_colour_manual("Party",
@@ -59,5 +59,5 @@ ggplot(data=ideology, aes(V1,V2,colour=party2)) +
    
   
 ggsave("MP_latent_space_plot.png",
-       width=10, height=6, units="in",dpi=600,
+       width=8, height=5, units="in",dpi=320,
        bg="white")  

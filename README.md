@@ -9,7 +9,7 @@ The python script 'tweet_like_visualisation' collects the data using Twitters AP
 ![alt text](https://github.com/hymeram/mp_twitter_networks/blob/main/like_network.png)
 
 ### Analysing the Network 
-The dataset 'like_matrix.csv' shows the likes each MP gave each other over a period in 2020 and 2021. This data can then be used to analyse their behaviour. To give a simple example the R script 'lsm_ideology_estimation' condenses the data into two dimensional latent space where the positions of the MPs can be used to infer their ideological distance from one another.
+The dataset 'like_matrix.csv' shows the likes each MP gave each other over a period in 2020 and 2021. This data can then be used to analyse their behaviour. To give a simple example, the R script 'lsm_ideology_estimation.R' condenses the data into two dimensional latent space where the positions of the MPs can be used to infer their ideological distance from one another. MPs closer together in latent space are more likley to interact and therefore more likely to share a more similar political ideology
 
 ![alt text](https://github.com/hymeram/mp_twitter_networks/blob/main/MP_latent_space_plot.png) 
 

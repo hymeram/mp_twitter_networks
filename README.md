@@ -9,8 +9,7 @@ The python script 'tweet_like_visualisation' collects the data using Twitters AP
 ![alt text](https://github.com/hymeram/mp_twitter_networks/blob/main/like_network.png)
 
 ### Analysing the Network 
-The dataset 'like_matrix.csv' shows the likes each MP gave each other over a period in 2020 and 2021. This data can then be used to analyse their behaviour. To give a simple example, the R script 'lsm_ideology_estimation.R' condenses the data into two dimensional latent space where the positions of the MPs can be used to infer their ideological distance from one another. MPs closer together in latent space are more likley to interact and therefore more likely to share a more similar political ideology
-
+The dataset 'like_matrix.csv' shows the likes each MP gave each other over a period in 2020 and 2021. This data can then be used to analyse their behaviour. To give a simple example, the R script 'lsm_ideology_estimation.R' condenses the data into two dimensional latent space where the positions of the MPs can be used to infer their ideological distance from one another.
 ![alt text](https://github.com/hymeram/mp_twitter_networks/blob/main/MP_latent_space_plot.png) 
 
-The above shows MPs positions in latent space. MPs tend to interact more with other members of their party and are hence close in latent space. MPs from parties who are ideologically similar are also closely positioned in latent space.DUP MPs for example are positioned close to Conservative MPs.
+The above shows MPs positions in latent space. MPs tend to interact more with other members of their party and are hence close in latent space. MPs from parties who are ideologically similar are also closely positioned in latent space. DUP MPs for example are positioned closer to Conservative MPs showing their ideological similarity and the tendency for MPs to display 'ideological homophily'.
